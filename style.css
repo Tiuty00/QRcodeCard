@@ -18,22 +18,32 @@ main {
     width: 50%;
     padding: 3%;
     background-color: #ffff;
-    border-radius: 1.5rem;
+    border-radius: 25px;
     text-align: center;
+
+    animation: bounce; 
+    animation-duration: 1.5s; 
 }
 
 h1 {
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
+    font-size: 1.5rem;
+    margin: 7% 2%;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    margin: 5%;
 }
 
 img {
     max-width: 100%;
+    border-radius: 15px;
 }
 
 
@@ -41,9 +51,51 @@ img {
 .attribution {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 11px; text-align: center;
+    font-size: 0.6875rem; 
+    text-align: center;
+    margin-top: 5%;
 }
 .attribution a {
     font-weight: 700;
     color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+
+/* Responsive Section */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.755rem;
+    }
+
+    .attribution {
+        font-size: 0.6rem; 
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .card {
+        padding: 4%;
+    }
+
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.65rem;
+    }
+
+    .attribution {
+        font-size: 0.55rem; 
+    }
 }
