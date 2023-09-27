@@ -25,7 +25,7 @@ Mobile-view
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Tiuty00/QRcodeCard)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [PAGE](https://tiuty00.github.io/QRcodeCard/)
 
 ### Built with
 
